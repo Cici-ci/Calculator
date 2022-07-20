@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int principal = (int) Console.readNumber("Enter the principal:", 100, 10000);
+        int principal = (int) Console.readNumber("Enter wwwthe principal:", 100, 10000);
         float annualInterest = (float) Console.readNumber("Enter the Annual Interest Rate:", 1, 10);
         int years = (int) Console.readNumber("Enter the period:", 1, 100);
         double mortgage= CalculateReoport.calculatorMortgage(principal,annualInterest,years);
